@@ -1,9 +1,14 @@
-# helloworld
+# astrbot_plugins_ascii2dSearch
 
-AstrBot 插件模板
+通过ascii2d搜索图片的来源，并且以聊天记录的形式返回搜索到的图片来源地址。  
 
-A template plugin for AstrBot plugin feature
+# 配置：  
+需要再环境变量里面添加：
+```pycon
+ALL_PROXY = "http://127.0.0.1:xxxx"  #填入代理地址
+```
+或者自行修改代码，为获取图片来源的代码添加代理（我懒得弄了）。    
 
-# 支持
+# 使用方法：
+下载完插件之后，对着要查找来源的图片回复/search，然后等待结果,结果以聊天记录的形式返回。      
 
-[帮助文档](https://astrbot.app)
