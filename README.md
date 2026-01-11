@@ -4,6 +4,8 @@
 
 # 依赖：
 本插件调用了napcat当中的api，所以需要配合napcat使用。  
+此外，本插件参考了下面这个[issue](https://github.com/kitUIN/PicImageSearch/issues/305)的代码（主要是参考如何绕过cf），十分感谢[mhy9989](https://github.com/mhy9989)提供的方法。  
+
 
 # 配置：  
 需要再环境变量里面添加：
